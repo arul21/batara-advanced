@@ -32,6 +32,17 @@ yarn dev
 
 Open [localhost](http://localhost:3000) to view it in the browser.
 
+---
+
+Username & Password
+
+```bash
+username: "demo",
+password: "demo",
+```
+
+---
+
 ## List of API Routers
 
 | Route                    | HTTP | Description                            |
@@ -121,6 +132,9 @@ GET
 
 ```
 Authorization : Bearer <Token>
+
+example:
+Authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjNlNmY0YTQwMGQ4NzVkOGMzYmU3MjkiLCJyb2xlIjoibWVtYmVyIiwidXNlcm5hbWUiOiJkZW1vIiwiaWF0IjoxNjQ4MjU5MTUwfQ.r653VvnQEtWdv2MP3JLZMGvslNNxOL4I_QSEh_KtqH8
 ```
 
 - **Response**
